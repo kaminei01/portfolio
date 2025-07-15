@@ -1,70 +1,92 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 💼 Kamineni Sravani — Developer Portfolio
 
-## Available Scripts
+Welcome to my personal portfolio website! Built using **HTML**, **CSS**, and **JavaScript**, this portfolio showcases my skills, projects, and contact information. It's designed to be simple, clean, and responsive — ideal for recruiters and internship/job applications.
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- 🌙 Dark Mode Toggle
+- ⚙️ Pure HTML + CSS + JS — No frameworks
+- 📰 AI Project Showcase: Tackling Fake News
+- 📄 Resume Download
+- 🔗 GitHub & LinkedIn Integration
+- 📱 Mobile Responsive
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📁 Project Structure
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+portfolio/
+├── index.html        # Main HTML file
+├── style.css         # All styles
+├── script.js         # Interactivity & dark mode
+├── assets/
+│   └── resume.pdf    # Downloadable resume
+└── README.md         # This file
+```
 
-### `npm test`
+## 📸 Featured Project: Tackling Fake News
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> An AI-powered web app that detects and verifies fake news using BERT, manual logic, and real-time web search.
+> Built with React + FastAPI.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔗 Connect with Me
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 🔗 [LinkedIn](https://www.linkedin.com/in/kamineni-sravani-0a32b126a)
+- 💻 [GitHub](https://github.com/kaminei01)
+- 📄 [Resume](assets/resume.pdf)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🌍 Live Demo
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> 🟢 View the site live at:  
+> [https://kaminei01.github.io/portfolio/](https://kaminei01.github.io/portfolio/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🛠️ Setup Instructions
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To run locally:
 
-## Learn More
+```bash
+git clone https://github.com/kaminei01/portfolio.git
+cd portfolio
+start index.html
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To deploy:
+- Push to GitHub
+- Enable GitHub Pages (Settings → Pages → Source: `main` + root `/`)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+```
+Feel free to fork or reuse this template!
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🌐 Custom Domain Integration with GitHub Pages
 
-### Analyzing the Bundle Size
+You can map a **custom domain** (like `www.kaminenisravani.com`) to your GitHub Pages site.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 📝 Steps:
 
-### Making a Progressive Web App
+1. **Buy a domain** from GoDaddy, Namecheap, etc.
+2. **Create a CNAME file** in your repo containing:  
+   `www.kaminenisravani.com`
+3. **Set DNS Records** in your domain provider:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+| Type | Name | Value |
+|------|------|-------|
+| A | @ | 185.199.108.153 |
+| A | @ | 185.199.109.153 |
+| A | @ | 185.199.110.153 |
+| A | @ | 185.199.111.153 |
+| CNAME | www | kaminei01.github.io. |
 
-### Advanced Configuration
+4. **GitHub Pages Settings**: Add your custom domain, enable HTTPS.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+✅ Done! Your site will now be live at your custom domain.
