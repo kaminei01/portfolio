@@ -1,0 +1,149 @@
+:root {
+  --primary: #d0b8ac;
+  --secondary: #f3d8c7;
+  --light: #fff;
+  --dark: #1e1e1e;
+  --text: #2c2c2c;
+  --accent: #7f5539;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #efe5dc;
+  color: var(--text);
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.dark {
+  background-color: var(--dark);
+  color: #f3f3f3;
+}
+
+header {
+  background-color: var(--primary);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.2rem;
+}
+
+nav a {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: var(--accent);
+}
+
+#darkModeToggle {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+section {
+  padding: 4rem 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 2rem;
+  color: var(--accent);
+  margin-bottom: 1rem;
+  border-left: 4px solid var(--primary);
+  padding-left: 0.5rem;
+}
+
+.project {
+  background: var(--light);
+  padding: 1.5rem;
+  margin-top: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.skills-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0;
+}
+
+.skills-list li {
+  background-color: var(--secondary);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+form button {
+  padding: 0.8rem 1.5rem;
+  background-color: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background-color: #5f3726;
+}
+
+footer {
+  background: var(--primary);
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+footer .socials {
+  margin-top: 1rem;
+}
+
+footer .socials a {
+  color: var(--text);
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+footer .socials a i {
+  margin-right: 0.3rem;
+}
